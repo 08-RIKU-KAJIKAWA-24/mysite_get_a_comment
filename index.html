@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Riku Kajikawa —LEAVE A COMMENT</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src="https://kit.fontawesome.com/aedb319af4.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header>
+      <div class="my_face_logo">
+        <img src="logo.png" alt="My face logo">
+      </div>
+      <div class="my_name">
+        <p>Riku Kajikawa <span style="color:#808080"> — Creator</span></p>
+      </div>
+      <div class="menu">
+        <div class="btn home">
+          <a href="https://08-riku-kajikawa-24.github.io/mysite_home/">Home</a>
+        </div>
+        <div class="btn project">
+          <a href="https://08-riku-kajikawa-24.github.io/mysite_product/">Products</a>
+        </div>
+        <div class="btn Goal">
+          <a href="https://08-riku-kajikawa-24.github.io/mysite_goal/">Goals</a>
+        </div>
+        <div class="about">
+          <a href="https://08-riku-kajikawa-24.github.io/mysite_about/">About</a>
+        </div>
+      </div>
+      <div class="sns">
+        <a href="https://twitter.com/08_RK_KJKW_24" class="btn twitter"><span class="fa fa-twitter-square fa-2x"></span></a>
+        <a href="mailto:ntk.maxe4168@gmail.com" class="btn mail"><span class="fa fa-envelope fa-2x"></span></a>
+        <a href="https://www.youtube.com/channel/UCA0p7uZX4fIb1APH_ZPKclA?view_as=subscriber" class="btn youtube"><span class="fab fa-youtube fa-2x"></span></a>
+        <a href="https://github.com/08-RIKU-KAJIKAWA-24" class="btn github"><span class="fa fa-github square fa-2x"></spam></a>
+      </div>
+    </header>
+    <div class="main">
+      <div class="main_text">
+        <h1>Thank you</h1>
+        <h3>submit complete</h3>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="icons">
+        <div class="btn humen"><span class="fas fa-user-alt fa-sm"></span> Riku Kajikawa</div>
+        <div class="btn clock">
+          <span class="fas fa-clock fa-sm">
+            <span id="print_clock">
+              <script type="text/javascript">
+              document.getElementById("print_clock").innerHTML = getNow();
+              function getNow() {
+                var now = new Date();
+                var year = now.getFullYear();
+                var mon = now.getMonth()+1;
+                var day = now.getDate();
+                var s = year + "/" + mon + "/" + day;
+                return s;
+              }
+              </script>
+            </span>
+          </span>
+        </div>
+        <div class="btn comment">
+          <a href="https://08-riku-kajikawa-24.github.io/mysite_comment/"><span class="fas fa-comment-alt fa-sm"></span>Leave a comment</a>
+        </div>
+      </div>
+      <div class="refer">
+        <p>Riku Kajikawa, Proudly powered by HTML, CSS, JavaScript</p>
+      </div>
+    </div>
+  </body>
+</html>
